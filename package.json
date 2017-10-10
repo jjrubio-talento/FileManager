@@ -1,0 +1,15 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "Module to save files in different places",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "author": "plobato@talentsoftware.com",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "moment": "^2.19.0"
+  }
+}

@@ -1,0 +1,13 @@
+(function () {
+    'use strict';
+
+
+    module.exports = {
+        get: function (obj) {
+            return('Mongo');
+        },
+        getToken: function (obj) {
+            return '';
+        }
+    };
+}());
