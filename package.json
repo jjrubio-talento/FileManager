@@ -8,6 +8,7 @@
   },
   "author": "TalentoSoftware",
   "dependencies": {
+    "aws-sdk": "^2.134.0",
     "crypto": "^1.0.1",
     "moment": "^2.19.0"
   }
