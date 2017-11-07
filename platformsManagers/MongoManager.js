@@ -8,6 +8,9 @@
         },
         getToken: function (obj) {
             return '';
+        },
+        getFile:function (obj) {
+            return('MongoFile');
         }
     };
 }());

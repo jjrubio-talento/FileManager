@@ -27,13 +27,29 @@
             }
         },
         saveFile: function (obj) {
-
+          return fileManager.saveFile(obj);
         },
         getFile: function (obj) {
-            return fileManager.get(obj);
+            return fileManager.getFile(obj);
         },
         getToken: function (obj) {
             return fileManager.getToken(obj);
+        },
+        existThumbnail: function (obj) {
+          return fileManager.existThumbnail(obj);
+        },
+        moveFile: function (obj) {
+        return fileManager.moveFile(obj);
+        },
+        getSignedUrl: function (obj) {
+          return fileManager.getSignedUrl(obj);
+        },
+        copyFile: function (obj) {
+          return fileManager.copyFile(obj);
+        },
+        deleteFile: function (obj) {
+          return fileManager.deleteFile(obj);
         }
+
     };
 }());
