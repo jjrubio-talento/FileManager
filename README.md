@@ -45,7 +45,7 @@ Params: Object
                 region: 'AWS region',
                 secret: 'AWS secret key',
                 accessKey: 'AWS access key',
-                expirationTime: 'Time of expiration in minutes'
+                expirationTime: 'Time of expiration in seconds,300 seconds by default'
              }
     }
         

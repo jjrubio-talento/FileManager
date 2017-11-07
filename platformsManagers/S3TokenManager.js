@@ -11,11 +11,11 @@
       let path = obj.file.route;
       let filename = obj.file.filename;
       let readType = 'private';
-      let expirationTime = 5;
+      let expirationTime = 300;
       if(obj.aws.expirationTime){
         expirationTime = obj.aws.expirationTime;
       }
-      let expiration = moment().add(expirationTime, 'm').toDate(); //expiration time in minutes
+      let expiration = moment().add(expirationTime, 's').toDate(); //expiration time in minutes
 
       let s3Policy = {
         'expiration': expiration,
