@@ -30,7 +30,7 @@
             'success_action_status': '201'
           },
           ['starts-with', '$Content-Type', obj.file.type],
-          ['content-length-range', 2048, 10485760], //min and max
+          ['content-length-range', 2048, 524288000], //min and max in bytes ( 2Kb - 500Mb)
         ]
       };
 
